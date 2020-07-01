@@ -77,11 +77,11 @@ export class FormPersonalDetails extends Component {
                <br/>
                <Button
                 variant="contained" color="primary"  onClick={this.continuee}>
-                  Primary
+                  Continue
               </Button>
               <Button
-                variant="contained" color="danger"  onClick={this.back}>
-                  Primary
+                variant="contained" color="default"  onClick={this.back}>
+                  Back
               </Button>
              </div>
             </div>

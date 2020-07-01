@@ -79,7 +79,7 @@ export class FormUserDetails extends Component {
                <br/>
                <Button
                 variant="contained" color="primary"  onClick={this.continuee}>
-                  Primary
+                    Continue
               </Button>
               </div>
             </div>

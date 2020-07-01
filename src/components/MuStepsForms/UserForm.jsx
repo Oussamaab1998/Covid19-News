@@ -3,6 +3,7 @@ import FormUserDetails from './FormUserDetails';
 import FormPersonalDetails from './FormPersonalDetails';
 import { ThemeConsumer } from 'styled-components';
 import Confirm from './Confirm';
+import Success from './Success';
 export class UserForm extends Component {
     state = {
         step: 1,
@@ -65,7 +66,11 @@ export class UserForm extends Component {
                     />
                 )            
                     case 4:
-                return <h1>Success</h1>
+                return (
+                    <Success 
+                        prevStep={this.prevStep}
+                    />
+                    )
         }
     }
 }

@@ -35,7 +35,7 @@ class App extends React.Component {
     render() {
         const {data, country} = this.state;
         return(
-            <React.Fragment>
+           /* <React.Fragment>
                  <Router>
                    
                     <Sidebar />
@@ -45,14 +45,14 @@ class App extends React.Component {
         <Route exact path="/about" render={props => <About {...props} />} />
       </Switch>
                  </Router>
-            </React.Fragment>
+            </React.Fragment>*/
 
-            /*<div className={styles.container}>
+            <div className={styles.container}>
                 <img className={styles.image} src={coronaImages} alt="Covid-19" />
                 <Cards data = {data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country = {country} />
-            </div>*/
+            </div>
         )
     }
 }
